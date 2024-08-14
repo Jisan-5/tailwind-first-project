@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./output.css">
-</head>
-<body>
-  <p class="bg-red-500">hello</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9e1ffb3349.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="p-3 flex bg-white justify-between items-center">
+      <a href="#" class="flex items-center">
+        <img src="../assets/asset 0.png" alt="Logo" class="object-cover "/>
+        <span class="font-display font-medium text-xl px-2">To Desktop</span>
+      </a>
+      <div id="nav-menu " class="hidden md:flex gap-10">
+        <a href="" class="font-medium hover:text-primary">Pricing</a>
+        <a href="" class="font-medium hover:text-primary">Docs</a>
+        <a href="" class="font-medium hover:text-primary">Changelog</a>
+        <a href="" class="font-medium hover:text-primary">Blogs</a>
+        <a href="" class="font-medium hover:text-primary">Login</a>
+      </div>
+
+      <button class="hidden md:flex gap-2 items-center border border-gray-400 px-6 py-2 rounded-md hover:border-gray-600">
+        <img src="../assets/asset 1.svg" alt="icon">
+        <span>Electron Developers</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      <button class="p-2 md:hidden">
+        <i class="fa-solid fa-bars text-gray-600 "></i>
+      </button>
+    </nav>
+  </body>
 </html>
